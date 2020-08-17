@@ -1,0 +1,102 @@
+.navbar-nav li a{
+    color: #fff !important;
+     font-weight: 600;
+    float: right;
+    text-align: left;
+    margin-left: 20px;
+  
+  }
+  #nav-bar{
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+  }
+  .navbar {
+    background-image: linear-gradient(to right, #565656,#33bb88);   
+    padding: 0 !important;
+  }
+  .nav-link{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  body{
+    font-family:sans-serif
+  
+  }
+  
+  .container0 {
+    position: relative;
+    margin: 0 ;
+  }
+  
+  .container0 img {
+    margin-left: auto;
+    margin-right: auto;
+  } 
+  .container0 .who {
+    position: absolute;
+    top: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    font-family:sans-serif;
+  }
+  .container1 {
+    position: relative;
+    margin: 0 ;
+  }
+  
+  .container1 img {
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+  .container1 .camp {
+    position: absolute;
+    top: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    font-family:sans-serif;
+  }
+  .container2 {
+    position: relative;
+    margin: 0 ;
+  }
+  
+  .container2 img {
+    margin-left: auto;
+    margin-right: auto;
+    }
+  
+  .container2 .motto {
+    position: absolute;
+    top: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    font-size:  20px;
+    font-family:sans-serif;
+  }
+  .spon{color: #f1f1f1;
+    font-family:sans-serif;
+    background-color:#66CDAA
+  } 
+  @media only screen and (max-width: 500px)
+  {
+   .container0 img{
+width: 10n;
+   } 
+  }
